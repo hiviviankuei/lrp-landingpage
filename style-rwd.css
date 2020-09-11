@@ -1,0 +1,596 @@
+@media screen and (max-width : 640px) {
+    .container{
+        width: 100%;
+    }
+    
+    table td {
+        border:1px solid #a8a8a8;
+        line-height: 23px;
+        padding: 5px 0;
+    }
+
+    table td a {
+        font-size: 18px;
+    }
+
+    .kv .content .title p {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .kv .content .title {
+        width: 50%;
+        position: absolute;
+        top: 15%;
+        left: 8%;
+    }
+
+    .kv .bar .bar-01 img {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .kv .bar .bar-02 p,.kv .bar .bar-03 p,.kv .bar .bar-04 p,.kv .bar .bar-05 p,.kv .bar .bar-06 p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .kv .bar .bar-02 {
+        margin-left: 13%;
+        margin-top: 20px;
+    }
+
+    .kv .bar .bar-02 .line .line-1,.kv .bar .bar-03 .line .line-1,.kv .bar .bar-04 .line .line-1,.kv .bar .bar-05 .line .line-1,.kv .bar .bar-06 .line .line-1  {
+        height: 90%;
+    }
+    
+    .kv .bar .bar-03, .kv .bar .bar-04,.kv .bar .bar-05,.kv .bar .bar-06{
+        margin-left: 13%;
+        margin-top: 7px;
+        width: 100%;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    
+    .sec-1 .title .p2,.sec-2 .title .p2 {
+        margin: 0 10px;
+    }
+
+    .sec-1 .title .p2 span,.sec-2 .title .p2 span{
+        font-size: 18px;
+    }
+    
+    .sec-1 .content-1 .ours img {
+        width: 30%;
+    }
+    
+    .sec-1 .content-1 .others img {
+        width: 90%;
+     }
+
+    .sec-1 .content-1 .others {
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+     }
+
+    .sec-1 .content-2 .block-1 .icon-5 {
+        margin: 40px 10px ;
+     }
+    
+    .sec-1 .content-2 .block-1 .icon-1,.sec-1 .content-2 .block-1 .icon-2,.sec-1 .content-2 .block-1 .icon-3 {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    .sec-1 .content-2 .block-1 .arrow img{
+       width: 10%;
+     }
+     
+    .sec-1 .content-2 .block-1 .arrow p {
+         font-size: 26px;
+         color: #02b4f3;
+     }
+
+    .sec-1 .content-2 .block-2 .frame{ 
+        width: 60%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 30px;
+    } 
+
+    .sec-1 .content-2 .block-2 .frame:before,.sec-2 .content .block-2 .frame:before,.sec-3 .content .block-2 .frame:before,.sec-4 .content .block-2 .frame:before{
+        height: 35px;
+    }
+
+    .sec-1 .content-2 .block-2 .frame p {
+        margin: 0 10px;
+        font-size: 22px;
+    }
+    
+    .sec-1 .content-2 .block-2 .frame span {
+       position: absolute;
+       top: 50px;
+       font-size: 15px;
+       margin-right: 35px;
+       margin-left: 10px;
+    }
+    
+    .sec-2 .title .p3 p {
+        font-size: 18px;
+    }
+
+    .sec-2 .title .p3 span {
+        font-size: 15px;
+    } 
+
+
+    .sec-2 .content .block-1 .bar .bar-1 .product img,.sec-3 .content .block-1 .bar .bar-1 .product img {
+        width: 25%;
+        margin-left:10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line,.sec-3 .content .block-1 .bar .bar-1 .line {
+        display: block;
+        width: 60%;
+        margin-left: -65px;
+        margin-top: 25px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-1,.sec-3 .content .block-1 .bar .bar-1 .line .line-1 {
+        height:30px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-2,.sec-3 .content .block-1 .bar .bar-1 .line .line-2  {
+        height: 30px;
+        width: 90%;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .uva img,.sec-3 .content .block-1 .bar .bar-1 .uva img {
+       width: 35%;
+       margin-left: 20px;
+    }
+
+    .sec-2 .content .block-1 .bar .bar-2,.sec-3 .content .block-1 .bar .bar-2 {
+        margin-top: -15px;
+        height: 25px;
+        width: 30%;
+        background-color:#9bcbeb ;
+        margin-left: 60px;
+        margin-bottom: 8px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-3,.sec-3 .content .block-1 .bar .bar-3 {
+        height: 25px;
+        width: 35%;
+        background-color:#9bcbeb ;
+        margin-left: 60px;
+        margin-bottom: 8px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-4,.sec-3 .content .block-1 .bar .bar-4  {
+        height: 25px;
+        background-color:#9bcbeb ;
+        margin-left: 60px;
+        margin-bottom: 8px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-5,.sec-3 .content .block-1 .bar .bar-5 {
+        height: 25px;
+        width: 35%;
+        background-color:#9bcbeb ;
+        margin-left: 60px;
+        margin-bottom: 8px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-6,.sec-3 .content .block-1 .bar .bar-6  {
+        height: 25px;
+        width: 30%;
+        background-color:#9bcbeb ;
+        margin-left: 60px;
+        margin-bottom: 8px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .sec-2 .content .block-2 .frame p,.sec-3 .content .block-2 .frame p,.sec-4 .content .block-2 .frame p {
+        font-size: 22px;
+        margin: 0 5px;
+    }
+    
+    .sec-2 .content .block-2 .frame span,.sec-3 .content .block-2 .frame span,.sec-4 .content .block-2 .frame span {
+       position: absolute;
+       top: 200px;
+       font-size: 15px;
+       margin-right: 20px;
+       margin-left: 10px;
+    }
+
+    
+    .sec-2 .content .block-2 .frame img,.sec-3 .content .block-2 .frame img,.sec-4 .content .block-2 .frame img {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        width: 50%;
+    }
+    
+    .sec-3 .title .p1 p,.sec-4 .title .p1 p{
+        font-size: 18px;
+    }
+
+    .sec-3 .title .p1 span,.sec-4 .title .p1 span {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+
+
+    .sec-4 .content .block-1 .bar {
+        height: 200px;
+        position: absolute;
+        bottom:90px;
+        left: 60px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-1,.sec-4 .content .block-1 .bar .bar-2 {
+        width:30px;
+        margin-right: 10px;
+    }
+    
+    .sec-4 .content .block-1 .bar .bar-1 img {
+        width: 20%;
+        position: absolute;
+        top: -100px;
+    }
+
+    
+    .sec-4 .content .block-1 .bar .bar-3,.sec-4 .content .block-1 .bar .bar-4,.sec-4 .content .block-1 .bar .bar-5,.sec-4 .content .block-1 .bar .bar-6,.sec-4 .content .block-1 .bar .bar-7 {
+        width:30px;
+        margin-right: 10px;
+    }
+
+    .sec-4 .content .block-1 .bar p {
+        font-size: 13px;
+        text-align: center;
+        width: 20px;
+        margin: 5px auto;
+    }
+    
+    .sec-4 .content .block-2 .frame{ 
+        width: 60%;
+        height: 430px;
+    }
+    
+}
+@media screen and (max-width : 375px) {
+
+    .kv .bar .bar-02 p,.kv .bar .bar-03 p,.kv .bar .bar-04 p,.kv .bar .bar-05 p,.kv .bar .bar-06 p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .kv .bar .bar-02 {
+        margin-left: 13%;
+        margin-top: 22px;
+    }
+
+    .kv .bar .bar-03 {
+        margin-left: 13%;
+        margin-top: 10px;
+    }
+    
+    .sec-1 .title .p2 p,.sec-2 .title .p2 p {
+        font-size: 30px;
+    }
+
+    .sec-1 .content-1 .others {
+        width: 50%;
+     }
+
+    .sec-1 .content-2 .block-1 .arrow {
+        margin-top: 5px;
+     }
+
+    .sec-1 .content-2 .block-2 .frame p {
+        font-size: 20px;
+    }
+    
+    .sec-1 .content-2 .block-2 .frame span {
+       font-size: 14px;
+    }
+    
+    .sec-2 .title .p3 span {
+        font-size: 13px;
+    } 
+
+    .sec-2 .content .block-1 .bar .bar-1 .line,.sec-3 .content .block-1 .bar .bar-1 .line {
+        margin-top: 30px;
+    }
+
+    .sec-2 .content .block-1 .bar .bar-1 .product img {
+        width: 25%;
+        margin-left:10px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-1,.sec-3 .content .block-1 .bar .bar-1 .line .line-1 {
+        height:25px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-2,.sec-3 .content .block-1 .bar .bar-1 .line .line-2 {
+        height: 25px;
+        width: 90%;
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .uva img {
+       width: 35%;
+       margin-left: 20px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-2,.sec-2 .content .block-1 .bar .bar-3,.sec-2 .content .block-1 .bar .bar-4,.sec-2 .content .block-1 .bar .bar-5,.sec-2 .content .block-1 .bar .bar-6 {
+        height: 20px;
+        margin-left: 55px;
+        font-size: 13px;
+    }
+
+    .sec-2 .content .block-2 .frame p,.sec-3 .content .block-2 .frame p {
+        font-size: 20px;
+    }
+
+    .sec-2 .content .block-2 .frame img,.sec-3 .content .block-2 .frame img,.sec-4 .content .block-2 .frame img {
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+
+    .sec-2 .content .block-2 .frame span,.sec-3 .content .block-2 .frame span,.sec-4 .content .block-2 .frame span {
+        position: absolute;
+        top: 170px;
+     }
+
+    .sec-3 .content .block-1 .bar .bar-2,.sec-3 .content .block-1 .bar .bar-3,.sec-3 .content .block-1 .bar .bar-4,.sec-3 .content .block-1 .bar .bar-5,.sec-3 .content .block-1 .bar .bar-6 {
+        height: 20px;
+        margin-left: 55px;
+        font-size: 13px;
+    }
+    
+    .sec-3 .title .p1 span {
+       margin: 0 10px;
+       font-size: 13px;
+    }
+
+    .sec-4 .content .block-1 .bar {
+        height: 180px;
+        position: absolute;
+        bottom:80px;
+        left: 60px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-3,.sec-4 .content .block-1 .bar .bar-4,.sec-4 .content .block-1 .bar .bar-5,.sec-4 .content .block-1 .bar .bar-6,.sec-4 .content .block-1 .bar .bar-7 {
+        width:25px;
+        margin-right: 10px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-1,.sec-4 .content .block-1 .bar .bar-2 {
+        width:25px;
+        margin-right: 10px;
+    }
+
+    .sec-4 .content .block-1 .bar p {
+        font-size: 12px;
+    }
+
+    
+
+}
+
+@media screen and (max-width : 320px) {
+    
+    table td {
+        border:1px solid #a8a8a8;
+        line-height: 20px;
+        padding: 5px 0;
+    }
+
+    table td a {
+        font-size: 16px;
+    }
+
+    .kv .content .title p {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .kv .bar .bar-01 img {
+        width: 25%;
+        margin-right: 7px;
+    }
+
+    .kv .bar .bar-02 .line .line-1 {
+        width: 60%;
+    }
+
+    .kv .bar .bar-02 {
+        margin-top: 25px;
+    }
+
+    .kv .bar .bar-02 {
+        margin-left: 13%;
+        margin-top: 20px;
+    }
+
+    .kv .bar .bar-03,.kv .bar .bar-04,.kv .bar .bar-05,.kv .bar .bar-06 {
+        margin-left: 13%;
+        margin-top: 3px;
+    }
+
+    .kv .bar .bar-02 .line .line-1,.kv .bar .bar-02 .line .line-2,.kv .bar .bar-03 .line .line-1,.kv .bar .bar-04 .line .line-1,.kv .bar .bar-05 .line .line-1,.kv .bar .bar-06 .line .line-1 {
+        height: 80%;
+    }
+    
+    .sec-1 .title .p2 p {
+        font-size: 30px;
+    }
+    
+    .sec-1 .title .p2 span, .sec-2 .title .p2 span {
+        font-size: 16px;
+    }
+
+    .sec-1 .content-1 .ours img{
+       width: 25%;
+     }
+
+    .sec-1 .content-2 .block-1 .icon-1,.sec-1 .content-2 .block-1 .icon-2,.sec-1 .content-2 .block-1 .icon-3 {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .sec-1 .content-2 .block-1 .arrow p {
+        font-size: 20px;
+    }
+
+    .sec-1 .content-2 .block-1 .icon-1,.sec-1 .content-2 .block-1 .icon-2,.sec-1 .content-2 .block-1 .icon-3 {
+        font-size: 13px;
+    }
+
+    .sec-1 .content-2 .block-2 .frame p {
+        font-size: 16px;
+    }
+    
+    .sec-1 .content-2 .block-2 .frame span {
+        position: absolute;
+        top: 40px;
+        font-size: 13px;
+    }
+
+    .sec-1 .content-2 .block-2 .frame:before {
+        height: 30px;
+    } 
+
+    .sec-2 .content .block-1 .bar .bar-1 .product img {
+        width: 25%;
+        margin-left:5px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line {
+        display: block;
+        width: 60%;
+        margin-left: -65px;
+        margin-top: 25px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-1,.sec-3 .content .block-1 .bar .bar-1 .line .line-1 {
+        height:20px;
+        width: 100%;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .line .line-2,.sec-3 .content .block-1 .bar .bar-1 .line .line-2 {
+        height: 20px;
+        width: 90%;
+        font-size: 12px;
+    }
+    
+    .sec-2 .content .block-1 .bar .bar-1 .uva img {
+       width: 30%;
+       margin-left: 20px;
+    }
+
+    .sec-2 .content .block-1 .bar .bar-2,.sec-2 .content .block-1 .bar .bar-3,.sec-2 .content .block-1 .bar .bar-4,.sec-2 .content .block-1 .bar .bar-5,.sec-2 .content .block-1 .bar .bar-6 {
+        height: 20px;
+        margin-left: 45px;
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .sec-3 .content .block-1 .bar .bar-2,.sec-3 .content .block-1 .bar .bar-3,.sec-3 .content .block-1 .bar .bar-4,.sec-3 .content .block-1 .bar .bar-5,.sec-3 .content .block-1 .bar .bar-6 {
+        height: 20px;
+        margin-left: 45px;
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .sec-2 .content .block-2 .frame p,.sec-3 .content .block-2 .frame p,.sec-4 .content .block-2 .frame p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .sec-2 .content .block-2 .frame:before,.sec-3 .content .block-2 .frame:before,.sec-4 .content .block-2 .frame:before {
+        height: 30px;
+    }
+
+    .sec-2 .content .block-2 .frame span,.sec-3 .content .block-2 .frame span,.sec-4 .content .block-2 .frame span {
+        position: absolute;
+        top: 150px;
+        font-size: 13px;
+        margin-right: 20px;
+        margin-left: 10px;
+     }
+
+    .sec-2 .content .block-2 .frame img,.sec-3 .content .block-2 .frame img,.sec-4 .content .block-2 .frame img{
+        position: absolute;
+        top: 45px;
+        left: 40px;
+        width: 55%;
+    }
+
+    .sec-2 .content .block-2 .frame {
+        height: 350px;
+    }
+
+    .sec-3 .content .block-2 .frame{ 
+        height: 250px;
+    }
+
+    .sec-4 .content .block-2 .frame {
+        height: 380px;
+    }
+    
+    .sec-4 .content .block-1 .bar {
+        height: 180px;
+        position: absolute;
+        bottom:70px;
+        left: 50px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-3,.sec-4 .content .block-1 .bar .bar-4,.sec-4 .content .block-1 .bar .bar-5,.sec-4 .content .block-1 .bar .bar-6,.sec-4 .content .block-1 .bar .bar-7 {
+        width:20px;
+        margin-right: 10px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-1,.sec-4 .content .block-1 .bar .bar-2 {
+        width:20px;
+        margin-right: 10px;
+    }
+
+    .sec-4 .content .block-1 .bar p {
+        font-size: 12px;
+    }
+
+    .sec-4 .content .block-1 .bar .bar-1 img {
+        width: 20%;
+        position: absolute;
+        top: -80px;
+    }
+
+}
